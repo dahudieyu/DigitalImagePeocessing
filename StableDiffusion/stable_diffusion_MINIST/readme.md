@@ -2,4 +2,4 @@
 整个文件夹是做这个项目的全部代码 可以跑通 
 但是其中存在许多让新手理解公式的代码 比如base_forward_diffusion这个代码 就是 让读者理解最基本的前向扩散公式
 
-而stable_diffusion_fullcode_run 则是完整的项目：
+而stable_diffusion_fullcode_run 则是完整的项目，
