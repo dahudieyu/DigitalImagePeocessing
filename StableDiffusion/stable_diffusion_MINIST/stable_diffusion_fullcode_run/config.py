@@ -1,3 +1,8 @@
+device = "cuda"
+
+import os
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'  # 必须放在所有import之前
+
 # 导入用于张量操作的PyTorch库。
 import torch
 
@@ -45,3 +50,7 @@ from einops import rearrange
 
 # 导入'math'模块以进行数学运算。
 import math
+
+
+# 在代码开头添加
+torch.backends.cudnn.enabled = False  # 禁用 cuDNN 优化

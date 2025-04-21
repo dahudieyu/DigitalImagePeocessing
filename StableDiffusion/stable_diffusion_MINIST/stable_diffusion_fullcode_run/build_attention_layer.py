@@ -5,6 +5,8 @@
 # 空间变换器：在U-net中将空间张量转换为序列形式，反之亦然。
 
 from config import *
+from einops import rearrange
+
 
 class CrossAttention(nn.Module):
     def __init__(self, embed_dim, hidden_dim, context_dim=None, num_heads=1):

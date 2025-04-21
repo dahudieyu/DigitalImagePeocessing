@@ -2,7 +2,7 @@ from config import *
 
 # 使用GPU
 # device = "cuda"
-device = "mps"
+# device = "mps"
 
 # 边际概率标准差函数
 def marginal_prob_std(t, sigma):
